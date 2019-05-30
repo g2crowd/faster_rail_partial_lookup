@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    faster_rail_partial_lookup (0.1.g2crowd)
+    faster_rails_partial_lookup (0.1.0)
       actionview (< 6.0.0)
 
 GEM
@@ -60,7 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  faster_rail_partial_lookup!
+  faster_rails_partial_lookup!
   rake (~> 10.0)
   rspec (~> 3.0)
 

@@ -1,14 +1,14 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'faster_rail_partial_lookup/version'
+require 'faster_rails_partial_lookup/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'faster_rail_partial_lookup'
-  spec.version       = FasterRailPartialLookup::VERSION
+  spec.name          = 'faster_rails_partial_lookup'
+  spec.version       = FasterRailsPartialLookup::VERSION
   spec.authors       = ['Michael Wheeler']
   spec.email         = ['mwheeler@g2crowd.com']
 
-  spec.summary       = 'faster_rail_partial_lookup gem'
+  spec.summary       = 'faster_rails_partial_lookup gem'
 
   spec.files         = `[ -d ".git" ] > /dev/null && type git > /dev/null && git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

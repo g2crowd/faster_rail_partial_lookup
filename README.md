@@ -1,4 +1,4 @@
-# FasterRailPartialLookup
+# FasterRailsPartialLookup
 
 Rails template lookup is very slow in development, due to some issues with IO in ruby core. This gem monkey patches
 the path resolver, to give performance boosts.

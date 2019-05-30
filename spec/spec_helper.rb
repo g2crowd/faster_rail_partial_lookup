@@ -1,5 +1,5 @@
 require 'bundler/setup'
-require 'faster_rail_partial_lookup'
+require 'faster_rails_partial_lookup'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
